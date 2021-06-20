@@ -1,0 +1,43 @@
+/*hands*/
+
+.hour {
+    width: 5px;
+    height: 20%;
+    background-color: black;
+    border-radius: 3px;
+    position: relative;
+    top: 81px;
+    left: 174.2px;
+    z-index: 2;
+    transform-origin: 3px 69.5px;
+    transform: rotate(var(--rotation));
+}
+
+.minute {
+    width: 5px;
+    height: 33%;
+    background-color: black;
+    border-radius: 3px;
+    position: relative;
+    top: -36px;
+    left: 175.9px;
+    z-index: 3;
+    transform-origin: 2px 115px;
+    transform: rotate(var(--rotation));
+}
+
+.second {
+    width: 2.5px;
+    height: 186px;
+    background-color: red;
+    position: relative;
+    top: -200px;
+    left: 177.5px;
+    z-index: 3;
+    transform-origin: center 161px;
+    transform: rotate(0deg);
+}
+
+.hour{ --rotation: 0deg; }
+.minute{ --rotation: 0deg; }
+.second{ --rotation: 0deg; }
